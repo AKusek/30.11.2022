@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Znaki</title>
+    <link rel="stylesheet" href="Znaki.css">
+    <script>
+        function Robert1(){
+            document.getElementById("dec").innerHTML = "Zakaz ruchu w obu kierunkach.";
+        }
+        function Robert2(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu";
+        }
+        function Robert3(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu pojazdów silnikowych, z wyjątkiem motocykli jednośladowych";
+        }
+        function Robert4(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu autobusów";
+        }
+        function Robert5(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu motocykli";
+        }
+        function Robert6(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu pojazdów innych niż samochodowe";
+        }
+        function Robert7(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu samochodów ciężarowych";
+        }
+        function Robert8(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu samochodów rolniczych";
+        }
+        function Robert9(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu pojazdów silnikowych z przyczepą";
+        }
+        function Robert10(){
+            document.getElementById("dec").innerHTML = "Zakaz wjazdu pojazdów zaprzęgowych";
+        }
+    </script>
+</head>
+<body>
+    <div class="Title"><h1 style="text-align: center;">Znaki</h1></div>
+    <div class="content">
+
+        <div class="nav"><ul>
+
+            <li onclick="Robert1();"><image src="alpha.png" id="r1"></image></li>
+            <li onclick="Robert2();"><image src="alpha.png" id="r2"></image></li>
+            <li onclick="Robert3();"><image src="alpha.png" id="r3"></image></li>
+            <li onclick="Robert4();"><image src="alpha.png" id="r4"></image></li>
+            <li onclick="Robert5();"><image src="alpha.png" id="r5"></image></li>
+            <li onclick="Robert6();"><image src="alpha.png" id="r6"></image></li>
+            <li onclick="Robert7();"><image src="alpha.png" id="r7"></image></li>
+            <li onclick="Robert8();"><image src="alpha.png" id="r8"></image></li>
+            <li onclick="Robert9();"><image src="alpha.png" id="r9"></image></li>
+            <li onclick="Robert10();"><image src="alpha.png" id="r10"></image></li>
+    
+        </ul>
+    
+    
+    </div>
+    <div class="description">
+        <p id="dec">
+            Wybierz znak
+        </p>
+    </div>
+    
+
+    </div>
+</body>
+</html>
